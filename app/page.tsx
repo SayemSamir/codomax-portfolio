@@ -32,3 +32,10 @@ export default function Home() {
     </main>
   );
 }
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-white p-10">
+      <h1 className="text-3xl font-bold">Hello Samir! Site is Live.</h1>
+    </main>
+  );
+}
