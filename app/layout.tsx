@@ -55,7 +55,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body class="bg-slate-50 dark:bg-brand-dark text-slate-900 dark:text-slate-100 font-sans antialiased transition-colors duration-300">
+      {/* class এর জায়গায় className ব্যবহার করা হয়েছে */}
+      <body className="bg-slate-50 dark:bg-brand-dark text-slate-900 dark:text-slate-100 font-sans antialiased transition-colors duration-300">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           {children}
         </ThemeProvider>
