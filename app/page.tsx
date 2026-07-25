@@ -1,4 +1,5 @@
 'use client';
+
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -12,7 +13,7 @@ import AIChatModal from '@/components/AIChatModal';
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative overflow-hidden">
+    <main className="min-h-screen relative overflow-hidden bg-slate-950 text-slate-100">
       <Navbar />
       <Hero />
       <About />
@@ -29,13 +30,6 @@ export default function Home() {
       <footer className="py-8 border-t border-slate-800 text-center text-xs text-slate-500">
         <p>&copy; 2026 Gazi Sayem Uddin Samir. All Rights Reserved.</p>
       </footer>
-    </main>
-  );
-}
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-slate-950 text-white p-10">
-      <h1 className="text-3xl font-bold">Hello Samir! Site is Live.</h1>
     </main>
   );
 }
